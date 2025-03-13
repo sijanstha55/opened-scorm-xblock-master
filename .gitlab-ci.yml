@@ -1,0 +1,9 @@
+variables:
+    # Note: tags must be created and pushed manually.
+    TUTOR_PYPI_PACKAGE: openedx-scorm-xblock
+    OPENEDX_RELEASE: quince
+    GITHUB_REPO: overhangio/openedx-scorm-xblock
+
+include:
+  - project: 'community/tutor-ci'
+    file: 'plugin-gitlab-ci.yml'
